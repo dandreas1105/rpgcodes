@@ -1,0 +1,140 @@
+	#blackswan,
+	#blackswan2 {
+	--bs1: #000;
+	--bs2: #292829;
+	--bs3: 0, 0, 0;
+	--alpha: 0.6;
+}
+
+#blackswan br,
+#blackswan .blackiall br,
+#blackswan2 br,
+#blackswan2 .blackiall br {
+	display: none;
+}
+
+#blackswan, #blackswan2 {
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+#blackswan {
+	background: var(--bs1);
+}
+
+#blackswan .blckssw,
+#blackswan2 .blckssw {
+	width: auto;
+	background: var(--bs1);
+}
+
+#blackswan .black-img,
+#blackswan2 .black-img {
+	width: auto;
+	height: 250px;
+	margin: 0 auto;
+	background-image: url(https://placehold.it/500x250);
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(100%);
+}
+
+#blackswan .blackopac,
+#blackswan2 .blackopac {
+	width: auto;
+	height: 250px;
+	background-color: rgba(var(--bs3), var(--alpha));
+}
+
+#blackswan .titlee,
+#blackswan2 .titlee {
+	width: auto;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 20px;
+	font: 800 30px/25px 'Montserrat', sans-serif;
+	color: #fff;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.15), 1px -1px rgba(0, 0, 0, 0.15), -1px 1px rgba(0, 0, 0, 0.15), -1px -1px rgba(0, 0, 0, 0.15);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	position: relative;
+	top: -150px;
+}
+
+#blackswan .frameup,
+#blackswan2 .frameup {
+	width: auto;
+	height: 300px;
+	outline: 1px solid var(--bs1);
+	outline-offset: -15px;
+}
+
+#blackswan .textou,
+#blackswan2 .textou {
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	border: 1px solid #292829;
+	border-top: none;≤
+	box-sizing: border-box;
+	padding: 60px;
+	position: relative;
+	z-index: 3;
+	font: 14px/18px 'PT Sans', sans-serif;
+	text-align: justify;
+	color: #e0e0e0;
+}
+
+#blackswan .bs-sep,
+#blackswan2 .bs-sep {
+	width: auto;
+	height: 15px;
+	margin: 0 auto;
+	background: var(--bs1);
+}
+
+#blackswan .bs-datos,
+#blackswan2 .bs-datos {
+	width: auto;
+	height: auto;
+	box-sizing: border-box;
+	padding: 15px;
+	background: var(--bs2);
+	color: #e0e0e0;
+	font: italic 500 12px/16px 'Montserrat', sans-serif;
+	text-transform: lowercase;
+	text-align: right;
+}
+
+#blackswan .textou br,
+#blackswan2 .textou br {
+	display: block;
+}
+
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+	#blackswan .textou {
+		text-align: justify;
+		-webkit-hyphens: auto;
+		hyphens: auto;
+}
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+	#blackswan2 .textou {
+		text-align: justify;
+		-webkit-hyphens: auto;
+		hyphens: auto;
+}
+.bs-vac, .bs-vac2 {
+	width: auto;
+	font-size: 8px;
+	text-align: right;
+	margin: 0 auto;
+}
+.bs-vac {
+	width: 500px;
+}
+
+#blackswan .blackiall {
+	height: 340px;
+}
