@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hind:wght@300;400;500;600;700&family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech+Mono&display=swap');
+
+
+@import url("https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css");
+
+@import url("https://unpkg.com/@phosphor-icons/web@2.1.1/src/light/style.css");
+
+@import url("https://unpkg.com/@phosphor-icons/web@2.1.1/src/duotone/style.css");
+
+[data-id="mora_template_6"] {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    text-align: justify;
+    width: var(--width-template);
+    border: 1px solid var(--border);
+    padding: 20px;
+    background: var(--bg-1);
+    gap: 20px;
+    font: 500 var(--size-text) Share Tech Mono;
+    color: var(--color-1);
+ margin: auto auto 30px;
+}
+
+[data-id="mora_template_6"] br,
+[data-id="mora_template_7"] br,
+[data-id="mora_template_8"] br,
+[data-id="mora_template_9"] br,
+[data-id="mora_template_10"] br{ display: none; }
+
+[data-id="mora_template_6"]:after,
+[data-id="mora_template_7"]:after,
+[data-id="mora_template_8"]:after,
+[data-id="mora_template_9"]:after,
+[data-id="mora_template_10"]:after{
+    content: "moracodes - 2024";
+    text-transform: uppercase;
+    font: 700 10px Inconsolata;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+}
+
+[data-id="mora_template_6"] .template_icon_img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid var(--border);
+    background: var(--bg-2);
+    align-items: center;
+    margin-left: -55px;
+}
+
+[data-id="mora_template_6"] .template_content {
+    width: calc(100% - 40px);
+    letter-spacing: 1px;
+}
+
+[data-id="mora_template_6"] .template_content strong {
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font: 500 115% / 2 Poppins;
+    background: var(--accent-1);
+    padding: 1px 5px;
+}
+
+[data-id="mora_template_6"] .template_content br,
+[data-id="mora_template_7"] .template_content br,
+[data-id="mora_template_9"] .template_footer br{ display: block; }
+
+[data-id="mora_template_6"] .template_footer {
+    margin: 0 -20px -20px;
+    flex: 1;
+    padding: 10px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    gap: 10px;
+}
+
+[data-id="mora_template_6"] .template_footer a {
+    font: 600 80% Poppins;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--accent-1);
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+}
+
+[data-id="mora_template_6"] .template_footer a:last-of-type {
+    width: auto;
+    margin-right: 10px;
+    flex: none;
+}
+
+[data-id="mora_template_6"] .template_footer a:not(a:last-of-type):after {
+  content: "\ECE0";
+  font-family: "Phosphor" !important;
+  font-size: 200%;
+}
+
+[data-id="mora_template_7"] {
+    position: relative;
+    text-align: justify;
+    width: var(--width-template);
+    border: 1px solid var(--border);
+    background: var(--bg-1);
+    font: 300 var(--size-text)/calc(var(--size-text) + 10px) DM Sans;
+    color: var(--color-1);
+  margin: auto auto 30px;
+  box-sizing: border-box;
+}
+
+[data-id="mora_template_7"] .template_header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+  gap: 20px;
+}
+
+[data-id="mora_template_7"] .template_icon_img {
+    object-fit: cover;
+    border: 1px solid var(--border);
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    margin-left: -25px;
+    margin-right: auto;
+    background: var(--bg-1);
+}
+
+[data-id="mora_template_7"] .template_header span {
+    font: 300 italic 150% / 1 Poppins;
+    text-align: right;
+}
+
+[data-id="mora_template_7"] .template_header strong {
+    background: var(--accent-1);
+    font-weight: 600;
+    display: inline-block;
+    padding: 0 5px;
+    color: var(--bg-1);
+    font-size: 80%;
+}
+
+[data-id="mora_template_7"] .template_header > i {
+    font-size: 2rem;
+    color: var(--accent-1);
+    border-left: 1px solid var(--border);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+[data-id="mora_template_7"] .template_content { padding: 50px;
+}
+
+[data-id="mora_template_7"] .template_content strong {
+    background: linear-gradient(105deg, var(--accent-1), var(--color-1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+[data-id="mora_template_7"] .template_content i {
+    color: var(--accent-1);
+    font-weight: 400;
+    font-family: Inconsolata;
+}
+
+[data-id="mora_template_7"] .template_content u {
+    text-decoration: none;
+    background: var(--accent-1);
+}
+
+[data-id="mora_template_7"] .template_footer {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    border-top: 1px solid var(--border);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+[data-id="mora_template_7"] .template_footer span {
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+    border: 1px solid var(--border);
+    background: var(--bg-2);
+    font: 400 80% Poppins;
+}
+
+[data-id="mora_template_7"] .template_footer span:last-of-type {
+    margin-right: -40px;
+    background: var(--accent-1);
+    color: var(--bg-1);
+    font-weight: 700;
+}
+
+[data-id="mora_template_8"] {
+    position: relative;
+    text-align: justify;
+    width: var(--width-template);
+    border: 1px solid var(--border);
+    background: var(--bg-1);
+    font: 300 var(--size-text)/calc(var(--size-text) + 10px) DM Sans;
+    color: var(--color-1);
+  margin: auto auto 30px;
+  box-sizing: border-box;
+}
+
+[data-id="mora_template_8"] .template_header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0px 20px 20px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+
+[data-id="mora_template_8"] .template_header img {
+    object-fit: cover;
+    border: 1px solid var(--border);
+    padding: 10px;
+    box-sizing: border-box;
+    height: 120px;
+    width: 350px;
+    background: var(--bg-1);
+    margin-right: -40px;
+}
+
+[data-id="mora_template_8"] .template_header span {
+    font: 500 italic 165% / 1 Poppins;
+    text-align: left;
+    color: var(--accent-1);
+}
+
+[data-id="mora_template_8"] .template_header span strong {
+    background: var(--accent-1);
+    color: var(--bg-1);
+    font-size: 74%;
+    padding: 2px 10px;
+    font-weight: 600;
+    display: inline-block;
+    font-style: normal;
+    margin-top: 8px;
+}
+
+[data-id="mora_template_8"] .template_action {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-right: 1px solid var(--border);
+  padding: 20px 20px 20px 0;
+}
+
+[data-id="mora_template_8"] .template_action input { display: none;}
+
+[data-id="mora_template_8"] .template_action label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+[data-id="mora_template_8"] .template_action label:first-of-type {margin-left: -20px; }
+
+[data-id="mora_template_8"] .template_action label i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid var(--border);
+    background: var(--bg-1);
+    font-size: 1.5rem;
+    color: var(--accent-1);
+}
+
+[data-id="mora_template_8"] .template_action label strong {
+      display: flex;
+    align-items: center;
+    padding: 2px 10px;
+    border: 1px solid var(--border);
+    background: var(--bg-2);
+    font: 400 90% Poppins;
+  text-transform: uppercase;
+  width: 100%;
+  justify-content: center;
+}
+
+[data-id="mora_template_8"] .template_action div {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+   padding: 40px;
+}
+
+[data-id="mora_template_8"] div a {
+    text-decoration: none;
+    color: unset;
+    font: 400 110% / 1 Poppins;
+    display: grid;
+  gap: 0 10px;
+}
+
+[data-id="mora_template_8"] div a:not(a:last-of-type) {
+  border-bottom: 1px solid var(--bg-2);
+  padding-bottom: 10px;
+}
+
+[data-id="mora_template_8"] div a span {
+    font: 400 80% Inconsolata;
+    text-transform: uppercase;
+  opacity: .7;
+  margin-top: 5px;
+  grid-column: 2;
+}
+
+[data-id="mora_template_8"] div a span strong {
+  color: var(--accent-1);
+}
+
+[data-id="mora_template_8"] .mora_tab_1 a:before {
+    content: "\e606";
+    font-family: "Phosphor" !important;
+    grid-row: 1 / 3;
+    grid-column: 1;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    color: var(--accent-1);
+}
+
+[data-id="mora_template_8"] .mora_tab_2 a:before {
+    content: "\e2fe";
+    font-family: "Phosphor" !important;
+    grid-row: 1 / 3;
+    grid-column: 1;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    color: var(--accent-1);
+}
+
+[data-id="mora_template_8"] .mora_tab_3 a:before {
+    content: "\e916";
+    font-family: "Phosphor" !important;
+    grid-row: 1 / 3;
+    grid-column: 1;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    color: var(--accent-1);
+}
+
+input#mora_tab_1:checked ~ .mora_tab_1,
+input#mora_tab_2:checked ~  .mora_tab_2,
+input#mora_tab_3:checked ~ .mora_tab_3 {
+  display: flex;
+}
+
+[data-id="mora_template_8"] input:checked + label strong {
+  background-color: var(--accent-1);
+  color: var(--bg-1);
+}
+
+input[type="radio"]:checked + label i {
+  background-color: var(--accent-1);
+  color: var(--bg-1);
+}
+
+
+[data-id="mora_template_9"] {
+    position: relative;
+    text-align: justify;
+    width: var(--width-template);
+    border: 1px solid var(--border);
+    background: var(--bg-1);
+    font: 300 var(--size-text)/calc(var(--size-text) + 10px) DM Sans;
+    color: var(--color-1);
+  margin: auto auto 30px;
+  box-sizing: border-box;
+}
+
+[data-id="mora_template_9"] .template_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+}
+
+[data-id="mora_template_9"] .templante_char {
+    width: 132px;
+    height: 132px;
+    border: 1px solid var(--border);
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column…
